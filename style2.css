@@ -1,0 +1,48 @@
+.cards{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    background-color: rgb(231, 160, 30);
+    height: 35vh;  
+    padding: 90px 25px;
+}
+.bx0{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bx1{
+    background-color:rgb(20, 125, 118);
+}
+
+.bx2{
+    background-color: rgb(26, 85, 75);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn{
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+.box-content{
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.box-text{
+    color: #fff;
+}
+.btn:hover{
+    text-decoration: underline;
+    background-color: rgb(227, 27, 27);
+}

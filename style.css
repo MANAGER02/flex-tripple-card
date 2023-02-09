@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 18vw;
+    background-color: #fff;
+    box-shadow: 6px 8px 30px rgb(117, 117, 117);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-wrapper{
+    background-color: rgb(18, 18, 230);
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box-container{
+    text-align: center;
+    padding: 20px 5px
+}
+.box-container h2{
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 10px;
+}
+.box-container p{
+    color: rgb(109, 106, 106);
+}
+
+
+.payment-wrapper {
+    background-color: rgba(105, 105, 105, 0.338);
+   display: flex;
+   align-items: center;
+   padding: 18px;
+   border-radius: 15px;
+   margin: 10px 15px;
+}
+.change {
+    margin-left: 8pc;
+    font-size: 20px;
+    color: rgb(18, 18, 230);
+}
+.click-wrapper{
+    text-align: center;
+}
+.click{
+    width: 16vw;
+    padding: 10px;
+    border: none;
+    background-color: rgb(18, 18, 230);
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.click a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.cancel{
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 15px;
+}
