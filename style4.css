@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffc0cb;
+}
+
+.head{
+    margin-left: 300px;
+    margin-top: 400px;
+}
+
+.head h2{
+    color: #fff;
+}
+.head p{
+    color: #fff;
+}
+
+.main-box{
+    background-color: #fff;
+    margin-left: 75%;
+}
+
+
+
